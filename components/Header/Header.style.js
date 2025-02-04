@@ -4,6 +4,7 @@ const s = StyleSheet.create({
   subtittle: {
     fontSize: 20,
     color: "#ABABAB",
+    marginTop: -20,
   },
   img: {
     width: 200,

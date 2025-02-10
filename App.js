@@ -4,6 +4,7 @@ import { s } from "./App.style";
 import { Header } from "./components/Header/Header";
 import { CardToDo } from "./components/CardToDo/CardTodo";
 import { useState } from "react";
+import { TabBottomMenu } from "./components/TabBottomMenu/TabBottomMenu";
 
 export default function App() {
   const [todolist, seTodoList] = useState([
@@ -49,7 +50,7 @@ export default function App() {
         </SafeAreaView>
       </SafeAreaProvider>
       <View style={s.footer}>
-        <Text>footer</Text>
+        <TabBottomMenu></TabBottomMenu>
       </View>
     </>
   );
